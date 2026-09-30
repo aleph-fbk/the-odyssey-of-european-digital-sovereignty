@@ -1,0 +1,1610 @@
+/* Auto-generated from knowledge_base.yaml. Do not edit by hand. */
+window.INITIATIVE_DATA = {
+  "meta": {
+    "title": "European Digital Sovereignty — Noteworthy EC Initiatives Since 2020",
+    "source": "atlas.txt",
+    "extracted": "2026-09-04",
+    "notes": "Extraction is based on the current version of atlas.txt (Noteworthy Initiatives Since 2020). Dates are transcribed as they appear in the document; partial dates are normalised to YYYY-MM or YYYY. `status` reflects the stage of each instrument at the time of writing. NOTE on citations: atlas.txt uses a sequential endnote numbering scheme [1]-[162]. The reference keys below follow this numbering; where an endnote entry cites a separate reference (e.g., [6], [14], [15]) the corresponding URL is kept under that key.\n"
+  },
+  "type_definitions": {
+    "Regulation": "Binding and directly applicable in all member states without the need for national implementation (transposition); the same rules apply across the EU. The term \"act\" is sometimes used instead of \"regulation\" (e.g., the AI Act is a regulation).\n",
+    "Decision": "Binding and directly applicable, but targeted at specific addressees (e.g., an EU country or an organization).\n",
+    "Directive": "Binding as to the result to be achieved by member states; each member state decides how to achieve that result by transposing the directive into national law (usually within two years). E.g., the NIS2 is a directive.\n",
+    "Communication": "Non-binding document setting out political priorities and a roadmap of regulatory, investment, and policy initiatives. Includes strategies, white papers and other policy statements, and is also referred to as a Joint Communication when foreign or security policy is involved (e.g., a Joint Declaration agreed by several member states).\n",
+    "Recommendation": "Non-binding initiative suggesting a line of action.\n",
+    "Bundles": "A grouped set of related EU initiatives on a specific subject, published together for coherence. Comprises three kinds: Packages (a bundle of related initiatives/legislation on a subject), Omnibuses (a bundle consisting only of amendments to existing EU laws), and Action Plans (concrete, operational initiatives focusing on a specific aspect of a subject).\n"
+  },
+  "references": {
+    "[6]": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52020DC0066",
+    "[9]": "https://ipcei-me-ct.eu/",
+    "[14]": "https://commission.europa.eu/document/download/09579818-64a6-4dd5-9577-446ab6219113_en",
+    "[15]": "https://commission.europa.eu/document/download/2ad80a48-166f-4c77-a513-80c53ca2a128_en?filename=Cloud%20Sovereignty%20Framework%20-%20Implementation%20guidance.pdf",
+    "[16]": "https://data.europa.eu/en/publications/datastories/data-governance-act-open-data-directive",
+    "[17]": "https://digital-strategy.ec.europa.eu/en/policies/data-governance-act",
+    "[18]": "https://eur-lex.europa.eu/eli/dir/2016/1148/oj",
+    "[19]": "https://digital-strategy.ec.europa.eu/en/library/new-practical-guide-data-governance-act",
+    "[20]": "https://digital-strategy.ec.europa.eu/en/policies/data-act",
+    "[21]": "https://digital-strategy.ec.europa.eu/en/factpages/data-act-explained",
+    "[22]": "https://digital-strategy.ec.europa.eu/en/library/data-act-factsheet",
+    "[23]": "https://digital-strategy.ec.europa.eu/en/policies/data-union",
+    "[24]": "https://digital-strategy.ec.europa.eu/en/library/data-union-strategy-unlocking-data-ai",
+    "[25]": "https://ec.europa.eu/transparency/expert-groups-register/screen/expert-groups/consult?lang=en&groupID=3903",
+    "[26]": "https://dssc.eu/",
+    "[28]": "https://digital-strategy.ec.europa.eu/en/policies/digital-services-act",
+    "[29]": "https://digital-strategy.ec.europa.eu/en/faqs/digital-services-act-questions-and-answers",
+    "[30]": "https://digital-markets-act.ec.europa.eu/index_en",
+    "[31]": "https://digital-markets-act.ec.europa.eu/about-dma_en",
+    "[32]": "https://digital-strategy.ec.europa.eu/en/policies/dsa-board",
+    "[33]": "https://digital-markets-act.ec.europa.eu/dma-hlg_en",
+    "[34]": "https://digital-strategy.ec.europa.eu/en/news/member-states-join-forces-european-initiative-processors-and-semiconductor-technologies",
+    "[35]": "https://digital-strategy.ec.europa.eu/en/library/joint-declaration-processors-and-semiconductor-technologies",
+    "[36]": "https://digital-strategy.ec.europa.eu/en/policies/european-chips-act",
+    "[37]": "https://digital-strategy.ec.europa.eu/en/policies/dsa-board",
+    "[38]": "https://digital-markets-act.ec.europa.eu/dma-hlg_en",
+    "[39]": "https://digital-strategy.ec.europa.eu/en/policies/european-chips-act",
+    "[40]": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_23_4519",
+    "[41]": "https://digital-strategy.ec.europa.eu/en/factpages/chips-act",
+    "[42]": "https://digital-strategy.ec.europa.eu/en/policies/chips-act-2",
+    "[43]": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-public-consultation-and-call-evidence-evaluation-and-review-chips-act",
+    "[44]": "https://digital-strategy.ec.europa.eu/en/factpages/chips-act",
+    "[45]": "https://digital-strategy.ec.europa.eu/en/policies/chips-act-2",
+    "[47]": "https://digital-strategy.ec.europa.eu/en/policies/alliance-processors-and-semiconductor-technologies",
+    "[48]": "https://www.europarl.europa.eu/topics/en/article/20200918STO87404/artificial-intelligence-threats-and-opportunities",
+    "[49]": "https://commission.europa.eu/publications/white-paper-artificial-intelligence-european-approach-excellence-and-trust_en",
+    "[50]": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "[51]": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+    "[52]": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-ai-regulation-proposal",
+    "[53]": "https://digital-strategy.ec.europa.eu/en/factpages/ai-innovation-package",
+    "[54]": "https://digital-strategy.ec.europa.eu/en/news/setting-ai-factories-now-possible-after-eurohpc-regulation-amendment",
+    "[55]": "https://digital-strategy.ec.europa.eu/en/policies/high-performance-computing-joint-undertaking",
+    "[56]": "https://digital-strategy.ec.europa.eu/en/library/ai-continent-action-plan",
+    "[57]": "https://digital-strategy.ec.europa.eu/en/policies/cloud-and-ai-development-act",
+    "[58]": "https://digital-strategy.ec.europa.eu/en/policies/eu-tech-sovereignty",
+    "[59]": "https://digital-strategy.ec.europa.eu/en/policies/apply-ai",
+    "[61]": "https://digital-strategy.ec.europa.eu/en/funding/turning-strategy-action-commission-launches-frontier-ai-grand-challenge",
+    "[62]": "https://digital-strategy.ec.europa.eu/en/news/commission-selects-europa-consortium-winner-frontier-ai-grand-challenge-project-build-european-open",
+    "[63]": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1708",
+    "[64]": "https://ec.europa.eu/commission/presscorner/detail/en/ip_25_467",
+    "[65]": "https://digital-strategy.ec.europa.eu/en/policies/ai-office",
+    "[66]": "https://ai-act-service-desk.ec.europa.eu/en",
+    "[67]": "https://digital-strategy.ec.europa.eu/en/policies/ai-board",
+    "[68]": "https://digital-strategy.ec.europa.eu/en/policies/ai-pact",
+    "[70]": "https://digital-strategy.ec.europa.eu/en/news/ipcei-next-generation-cloud-infrastructure-and-services-boost-europes-digital-decade",
+    "[71]": "https://ec.europa.eu/commission/presscorner/detail/en/ip_23_6246",
+    "[72]": "https://mpo.gov.cz/assets/cz/prumysl/strategicke-projekty/2021/7/IPCEI-CIS-Working-Paper-of-participating-EU-Member-States.pdf",
+    "[73]": "https://digital-strategy.ec.europa.eu/en/policies/cloud-computing-europe",
+    "[74]": "https://gaia-x.eu/",
+    "[75]": "https://gaia-x.eu/about/",
+    "[76]": "https://gaia-x.eu/faq/",
+    "[77]": "https://www.politico.eu/article/chaos-and-infighting-are-killing-europes-grand-cloud-project/",
+    "[78]": "https://www.politico.eu/article/anatomy-franco-german-tech-misfire-american-dependence/",
+    "[79]": "https://www.forrester.com/blogs/gaia-x-and-the-sovereign-cloud-from-unicorns-and-rainbows-to-storm-clouds/",
+    "[80]": "https://commission.europa.eu/news-and-media/news/commission-advances-cloud-sovereignty-through-strategic-procurement-2026-04-17_en",
+    "[81]": "https://www.theregister.com/off-prem/2025/12/22/europe-gets-serious-about-cutting-us-digital-umbilical-cord/2654348",
+    "[82]": "https://digital-strategy.ec.europa.eu/en/policies/cloud-alliance",
+    "[83]": "https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-policies",
+    "[84]": "https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-strategy",
+    "[86]": "https://digital-strategy.ec.europa.eu/en/policies/nis2-directive",
+    "[87]": "https://digital-strategy.ec.europa.eu/en/faqs/directive-measures-high-common-level-cybersecurity-across-union-nis2-directive-faqs",
+    "[88]": "https://www.enisa.europa.eu/topics/eu-incident-response-and-cyber-crisis-management/csirts-network",
+    "[89]": "https://www.enisa.europa.eu/topics/eu-cyber-crisis-and-incident-management/eu-cyclone",
+    "[90]": "https://digital-strategy.ec.europa.eu/en/policies/nis-cooperation-group",
+    "[91]": "https://digital-strategy.ec.europa.eu/en/news/new-stronger-rules-start-apply-cyber-and-physical-resilience-critical-entities-and-networks",
+    "[92]": "https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act",
+    "[93]": "https://digital-strategy.ec.europa.eu/en/library/commission-publishes-new-guidance-support-timely-cyber-resilience-act-implementation",
+    "[94]": "https://digital-strategy.ec.europa.eu/en/factpages/cyber-resilience-act-implementation",
+    "[95]": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-feedback-draft-guidance-assist-companies-applying-cyber-resilience-act",
+    "[96]": "https://www.eba.europa.eu/activities/direct-supervision-and-oversight/digital-operational-resilience-act",
+    "[97]": "https://finance.ec.europa.eu/publications/digital-finance-package_en",
+    "[98]": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2022/738197/EPRS_ATA(2022)738197_EN.pdf",
+    "[100]": "https://digital-strategy.ec.europa.eu/en/policies/eudi-regulation",
+    "[101]": "https://digital-strategy.ec.europa.eu/en/library/european-digital-identity-wallet-architecture-and-reference-framework",
+    "[102]": "https://ec.europa.eu/digital-building-blocks/sites/spaces/EUDIGITALIDENTITYWALLET/pages/694487808/What+are+the+Large+Scale+Pilot+Projects",
+    "[103]": "https://digital-strategy.ec.europa.eu/en/policies/cyber-solidarity",
+    "[104]": "https://digital-strategy.ec.europa.eu/en/library/eu-cyber-solidarity-act-factsheet",
+    "[105]": "https://digital-strategy.ec.europa.eu/en/news/commission-strengthens-eu-cybersecurity-resilience-and-capabilities",
+    "[106]": "https://digital-strategy.ec.europa.eu/en/library/proposal-regulation-eu-cybersecurity-act",
+    "[107]": "https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-act",
+    "[108]": "https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-certification-framework",
+    "[109]": "https://digital-strategy.ec.europa.eu/en/news/towards-more-secure-and-trusted-cloud-europe",
+    "[110]": "https://digital-strategy.ec.europa.eu/en/news/simpler-eu-digital-rules-and-new-digital-wallets-save-billions-businesses-and-boost-innovation",
+    "[111]": "https://certification.enisa.europa.eu/certification-library/eucc-certification-scheme_en",
+    "[112]": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act",
+    "[113]": "https://digital-strategy.ec.europa.eu/en/library/eu-action-plan-cybersecurity-and-artificial-intelligence",
+    "[114]": "https://ecs-org.eu/",
+    "[115]": "https://cybersecurity-centre.europa.eu/index_en",
+    "[116]": "https://digital-strategy.ec.europa.eu/en/policies/european-digital-identity-cooperation-group",
+    "[117]": "https://digital-strategy.ec.europa.eu/en/library/quantum-europe-strategy",
+    "[118]": "https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/15512-EU-quantum-Act_en",
+    "[119]": "https://digital-strategy.ec.europa.eu/en/library/digital-omnibus-regulation-proposal",
+    "[120]": "https://digital-strategy.ec.europa.eu/en/library/proposal-directive-regards-simplification-measures-and-alignment-cybersecurity-act",
+    "[121]": "https://digital-strategy.ec.europa.eu/en/policies/digital-rulebook",
+    "[122]": "https://digital-strategy.ec.europa.eu/en/policies/open-source-strategy",
+    "[123]": "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/european-data-driven-innovation-open-source",
+    "[124]": "https://interoperable-europe.ec.europa.eu/eu-oss-catalogue",
+    "[125]": "https://techsov-catalogue.eu/",
+    "[126]": "https://www.digitalsme.eu/",
+    "[127]": "https://www.digitalsme.eu/dsme-italy-home/",
+    "[128]": "https://www.digitalsme.eu/groups/working-group-cybersecurity-and-data-protection/",
+    "[129]": "https://tech-madein.eu/",
+    "[130]": "https://www.digitalsme.eu/tech-solutions-made-in-europe/",
+    "[131]": "https://europeanopensource.academy/",
+    "[133]": "https://health.ec.europa.eu/ehealth-digital-health-and-care/european-health-data-space-regulation-ehds_en",
+    "[134]": "https://noyb.eu/en/eu-commission-about-wreck-core-principles-gdpr",
+    "[135]": "https://www.edpb.europa.eu/news/digital-omnibus-edpb-and-edps-support-simplification-and-competitiveness-while-raising-key_en",
+    "[12]": "http://eur-lex.europa.eu/legal-content/en/ALL/?uri=CELEX:32003L0098",
+    "[46]": "https://digital-strategy.ec.europa.eu/en/news/commission-launches-public-consultation-and-call-evidence-evaluation-and-review-chips-act",
+    "[60]": "https://commission.europa.eu/priorities-2024-2029/competitiveness_en"
+  },
+  "frameworks": [
+    {
+      "id": "shaping-europes-digital-future",
+      "name": "Shaping Europe's Digital Future",
+      "short": "Shaping Europe's Digital Future",
+      "type": "Communication",
+      "published": "2020-02",
+      "description": "Founding communication of February 2020. Sets a comprehensive five-year strategy centred on data as an asset, sustainable technologies, cybersecurity, and digital sovereignty, on three pillars: digital technologies benefit people, a fair and competitive market for EU organizations, and an open, democratic society respectful of European fundamental rights. Main reference for the period 2019-2024.\n"
+    },
+    {
+      "id": "digital-compass",
+      "name": "2030 Digital Compass: the European way for the Digital Decade",
+      "short": "Digital Compass",
+      "type": "Communication",
+      "published": "2021-03",
+      "description": "More operative communication (March 2021) translating the high-level vision of \"Shaping Europe's Digital Future\" into measurable 2030 targets in four areas (connectivity, digital skills, digital business, digital public services), adding the annual \"State of the Digital Decade\" monitoring mechanism.\n"
+    },
+    {
+      "id": "digital-decade-policy-programme",
+      "name": "Digital Decade Policy Programme 2030",
+      "short": "Digital Decade",
+      "type": "Decision",
+      "published": 2022,
+      "description": "Binding instrument (2022) implementing the Digital Compass, referring to the decade 2020-2030. Includes the Digital Decade Policy Programme (DDPP) with measurable targets and the annual monitoring mechanism, the multi-country projects, and the Declaration on Digital Rights and Principles.\n"
+    },
+    {
+      "id": "declaration-digital-rights-principles",
+      "name": "Declaration on Digital Rights and Principles",
+      "short": "Digital Rights and Principles",
+      "type": "Communication",
+      "published": 2022,
+      "description": "Component of the Digital Decade. Guides the digital transition to be people-centric: respectful of human rights, supportive of solidarity and inclusion, fostering participation and the sustainability of the digital future.\n"
+    },
+    {
+      "id": "competitiveness-compass",
+      "name": "Competitiveness Compass",
+      "short": "Competitiveness Compass",
+      "type": "Communication",
+      "published": "2025-01",
+      "description": "Communication of January 2025, current reference for the period 2024-2029. Builds directly on the Draghi report; sets a vision to close the innovation gap, reduce dependencies on foreign countries, and promote European preference in public procurement.\n"
+    },
+    {
+      "id": "european-technological-sovereignty-package",
+      "name": "European Technological Sovereignty Package",
+      "short": "European Technological Sovereignty Package",
+      "type": "Bundles",
+      "published": "2026-06",
+      "description": "Framework launched by the EC in June 2026 building on the Competitiveness Compass. Bundles initiatives such as the Chips Act 2.0, the Cloud and AI Development Act (CADA), and the Open Source Strategy.\n"
+    }
+  ],
+  "domains": [
+    {
+      "id": "data",
+      "name": "Data"
+    },
+    {
+      "id": "online-platforms",
+      "name": "Online Platforms"
+    },
+    {
+      "id": "semiconductors",
+      "name": "Semiconductors"
+    },
+    {
+      "id": "ai",
+      "name": "Artificial Intelligence"
+    },
+    {
+      "id": "cloud-edge",
+      "name": "Cloud and Edge Computing"
+    },
+    {
+      "id": "cybersecurity-identity",
+      "name": "Cybersecurity and Digital Identity"
+    },
+    {
+      "id": "quantum",
+      "name": "Quantum Computing"
+    },
+    {
+      "id": "horizontal",
+      "name": "Horizontal Initiatives"
+    }
+  ],
+  "orgs": [
+    {
+      "id": "gaia-x",
+      "name": "Gaia-X",
+      "kind": "association",
+      "description": "Privately funded non-for-profit association (announced 2019, operative since 2021) launched by France and Germany to build a federated, secure, and interoperable cloud infrastructure for Europe. Sets specifications, rules, policies and a verification framework rather than providing cloud services itself. Criticized on execution.\n",
+      "initiatives": [
+        "ipcei-cis",
+        "cloud-sovereignty-framework",
+        "open-source-strategy"
+      ]
+    },
+    {
+      "id": "european-alliance-industrial-data-edge-cloud",
+      "name": "European Alliance for Industrial Data, Edge and Cloud",
+      "kind": "alliance",
+      "description": "Alliance launched in 2021 to foster development and deployment of cloud and edge services. Technically active but increasingly sidelined by faster-moving initiatives such as IPCEI-CIS.\n",
+      "initiatives": [
+        "ipcei-cis"
+      ]
+    },
+    {
+      "id": "alliance-on-processors-semiconductor-technologies",
+      "name": "Alliance on Processors and Semiconductor Technologies",
+      "kind": "industry-alliance",
+      "description": "Bottom-up industrial collaboration grouping key actors in chip design and production to identify production and technological gaps.\n",
+      "initiatives": [
+        "chips-act",
+        "chips-act-2"
+      ]
+    },
+    {
+      "id": "semicon-coalition-europe",
+      "name": "Semiconductor Coalition Europe (Semicon Coalition)",
+      "kind": "industry-alliance",
+      "description": "Coalition of all 27 member states reinforcing cooperation for research, production capacity, and skills supporting European digital sovereignty in the semiconductor sector. Top-down political alignment for policing and funding; contributed to the consultation leading to the Chips Act 2.0 proposal.\n",
+      "initiatives": [
+        "chips-act-2"
+      ]
+    },
+    {
+      "id": "ai-office",
+      "name": "European AI Office",
+      "kind": "ec-body",
+      "description": "Formal regulatory body established internally in January 2024 (formal publication February 2024, publicly launched May 2024) via the AI Innovation Package to implement and enforce the AI Act coherently across member states, e.g. via the AI Act Service Desk.\n",
+      "initiatives": [
+        "ai-act",
+        "ai-innovation-package"
+      ]
+    },
+    {
+      "id": "ai-pact",
+      "name": "AI Pact",
+      "kind": "voluntary",
+      "description": "Voluntary initiative to support the implementation of the AI Act.\n",
+      "initiatives": [
+        "ai-act"
+      ]
+    },
+    {
+      "id": "eurohpc-joint-undertaking",
+      "name": "EuroHPC Joint Undertaking",
+      "kind": "ec-body",
+      "description": "European High Performance Computing Joint Undertaking whose computational resources are leveraged and reinforced by AI Factories.\n",
+      "initiatives": [
+        "ai-factories",
+        "ai-innovation-package"
+      ]
+    },
+    {
+      "id": "ecso",
+      "name": "European Cyber Security Organisation (ECSO)",
+      "kind": "association",
+      "description": "Noteworthy organization in the cybersecurity domain.",
+      "initiatives": [
+        "cybersecurity-strategy-digital-decade"
+      ]
+    },
+    {
+      "id": "eccc",
+      "name": "European Cybersecurity Competence Centre (ECCC)",
+      "kind": "ec-body",
+      "description": "Noteworthy organization in the cybersecurity domain.",
+      "initiatives": [
+        "cybersecurity-strategy-digital-decade"
+      ]
+    },
+    {
+      "id": "enisa",
+      "name": "ENISA",
+      "kind": "ec-body",
+      "description": "EU agency for cybersecurity. Granted a permanent mandate by the original Cybersecurity Act; its coordinating role for cross-border supervision is reinforced by the NIS2 amendments.\n",
+      "initiatives": [
+        "cybersecurity-act",
+        "nis2",
+        "nis2-amendments"
+      ]
+    },
+    {
+      "id": "eosa",
+      "name": "European Open Source Academy (EOSA)",
+      "kind": "association",
+      "description": "\"The leading institution in advancing Open Source across Europe\"; a hub for knowledge, resources, and advocacy.\n",
+      "initiatives": [
+        "open-source-strategy"
+      ]
+    },
+    {
+      "id": "european-digital-sme-alliance",
+      "name": "European DIGITAL SME Alliance",
+      "kind": "association",
+      "description": "Network of more than 45,000 EU digital SMEs fostering collaboration and representing them toward EU institutions. Hosts the Working Group on Cybersecurity and Data Protection and provides certification labels for software and cybersecurity solutions made and hosted in Europe.\n",
+      "initiatives": []
+    },
+    {
+      "id": "european-data-innovation-board",
+      "name": "European Data Innovation Board (EDIB)",
+      "kind": "ec-body",
+      "description": "Expert group created under the Data Governance Act serving as the regulatory-level governance structure for the European data economy, advising the Commission on the implementation of the DGA and of common European data spaces.\n",
+      "initiatives": [
+        "data-governance-act",
+        "common-european-data-spaces"
+      ]
+    },
+    {
+      "id": "data-spaces-support-centre",
+      "name": "Data Spaces Support Centre (DSSC)",
+      "kind": "consortium",
+      "description": "Consortium launched in October 2022 operating at the operational level of the data governance structure. Provides tools, best practices, and community support for the development of common European data spaces.\n",
+      "initiatives": [
+        "data-governance-act",
+        "common-european-data-spaces"
+      ]
+    },
+    {
+      "id": "european-board-digital-services",
+      "name": "European Board for Digital Services",
+      "kind": "ec-body",
+      "description": "Independent advisory group of the regulators of the Digital Services Act (Digital Services Coordinators and the Commission) ensuring consistent application of the DSA across member states.\n",
+      "initiatives": [
+        "digital-services-act"
+      ]
+    },
+    {
+      "id": "dma-high-level-group",
+      "name": "DMA High-Level Group",
+      "kind": "advisory",
+      "description": "High-level advisory body providing the Commission with cross-sectoral advice to ensure consistency between the Digital Markets Act and other regulatory or sectoral instruments.\n",
+      "initiatives": [
+        "digital-markets-act"
+      ]
+    },
+    {
+      "id": "ai-board",
+      "name": "European Artificial Intelligence Board (AI Board)",
+      "kind": "ec-body",
+      "description": "Coordination committee under the AI Act ensuring consistent application at member state level, made up of representatives of the national supervisory authorities chaired by the Commission.\n",
+      "initiatives": [
+        "ai-act"
+      ]
+    },
+    {
+      "id": "apply-ai-alliance",
+      "name": "Apply AI Alliance",
+      "kind": "forum",
+      "description": "Voluntary informal coordination body bringing together member states, industry representatives, and social partners to support the implementation of the Apply AI Strategy.\n",
+      "initiatives": [
+        "apply-ai-strategy"
+      ]
+    },
+    {
+      "id": "european-digital-identity-cooperation-group",
+      "name": "European Digital Identity Cooperation Group",
+      "kind": "ec-body",
+      "description": "Commission expert group established under the EUDI Regulation to support and cooperate on the technical implementation of the European Digital Identity Wallet, replacing the eIDAS Expert Group.\n",
+      "initiatives": [
+        "eudi-regulation"
+      ]
+    }
+  ],
+  "initiatives": [
+    {
+      "id": "european-strategy-for-data",
+      "name": "European Strategy for Data",
+      "acronym": "ESD",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "data",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2020-02"
+      },
+      "description": "A key action of \"Shaping Europe's Digital Future\" (published the same day). Aims to create the single European market for data by facilitating data access, sharing, and usage across sectors and promoting data-driven innovation. Comprises the Open Data Directive, the Data Governance Act, and the Data Act.\n",
+      "builds_on": [],
+      "relates_to": [
+        "open-data-directive",
+        "data-governance-act",
+        "data-act",
+        "data-union-strategy"
+      ],
+      "organizations": [],
+      "references": [
+        "[6]"
+      ]
+    },
+    {
+      "id": "open-data-directive",
+      "name": "Open Data Directive",
+      "acronym": "ODD",
+      "type": "Directive",
+      "status": "adopted",
+      "domain": "data",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2019-06",
+        "entered_into_force": "2019-07",
+        "entered_into_application": "2021-07"
+      },
+      "description": "Common legal framework promoting the reuse of non-sensitive public-sector data (geospatial, mobility, statistics, environment). Replaces the 2003 Public Sector Information (PSI) directive; defines high-value datasets. Included retroactively in the European Strategy for Data.\n",
+      "builds_on": [],
+      "relates_to": [
+        "european-strategy-for-data"
+      ],
+      "organizations": [],
+      "references": [
+        "[16]"
+      ]
+    },
+    {
+      "id": "data-governance-act",
+      "name": "Data Governance Act",
+      "acronym": "DGA",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "data",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2022-06",
+        "entered_into_force": "2022-06",
+        "entered_into_application": "2023-09"
+      },
+      "description": "Enhances trust in data intermediaries to increase voluntary sharing of personal and non-personal data (GDPR applies where personal data is concerned) and data availability/reuse, especially for public-sector data that cannot be open data. Supports Common European Data Spaces in sectors such as healthcare, environment, energy, agriculture, mobility, and finance.\n",
+      "builds_on": [
+        "european-strategy-for-data"
+      ],
+      "relates_to": [
+        "data-act"
+      ],
+      "organizations": [],
+      "references": [
+        "[17]",
+        "[18]",
+        "[19]"
+      ]
+    },
+    {
+      "id": "data-act",
+      "name": "Data Act",
+      "acronym": "Data Act",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "data",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2023-12",
+        "entered_into_force": "2024-01",
+        "entered_into_application": "2025-09"
+      },
+      "description": "Building on the DGA, ensures fairness in the allocation of value produced by data amongst participants in the data economy, especially data sourced from the Internet of Things. Grants users more control over data generated by connected devices and requires transferability and switching between cloud providers.\n",
+      "builds_on": [
+        "data-governance-act"
+      ],
+      "relates_to": [
+        "ipcei-cis"
+      ],
+      "organizations": [],
+      "references": [
+        "[20]",
+        "[21]",
+        "[22]"
+      ]
+    },
+    {
+      "id": "data-union-strategy",
+      "name": "Data Union Strategy",
+      "acronym": "Data Union Strategy",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "data",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2025-11"
+      },
+      "description": "Following the realization that AI needs vastly more data than anticipated by the European Strategy for Data, further increases data availability for AI development — simplifying data-access rules (Open Data Directive, DGA, Data Act), creating data labs within AI Factories and Gigafactories, and connecting Common European Data Spaces and AI ecosystems — while safeguarding EU data sovereignty in international data flows. Partially operationalized via the Digital Omnibus.\n",
+      "builds_on": [
+        "european-strategy-for-data",
+        "digital-omnibus"
+      ],
+      "relates_to": [
+        "ai-factories",
+        "ai-gigafactories"
+      ],
+      "organizations": [],
+      "references": [
+        "[23]",
+        "[24]"
+      ]
+    },
+    {
+      "id": "digital-services-act",
+      "name": "Digital Services Act",
+      "acronym": "DSA",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "online-platforms",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2022-10",
+        "entered_into_force": "2022-11",
+        "entered_into_application": "2024-02"
+      },
+      "description": "Building on the GDPR, implements the \"fair and competitive market\" pillar of \"Shaping Europe's Digital Future\". Strengthens protection of citizens' and consumers' fundamental rights online by introducing rules for online services (marketplaces, social media, app stores, travel/accommodation platforms) on content moderation, illegal content, and advertisements — imposing greater accountability on big platforms.\n",
+      "builds_on": [],
+      "relates_to": [
+        "digital-markets-act"
+      ],
+      "organizations": [],
+      "references": [
+        "[28]",
+        "[29]"
+      ]
+    },
+    {
+      "id": "digital-markets-act",
+      "name": "Digital Markets Act",
+      "acronym": "DMA",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "online-platforms",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2022-10",
+        "entered_into_force": "2022-11",
+        "entered_into_application": "2023-05"
+      },
+      "description": "Building on the DSA, aims to make the digital market fairer by defining criteria to identify and regulate the powers of gatekeepers (large digital platforms providing online search engines, app stores, messenger services).\n",
+      "builds_on": [
+        "digital-services-act"
+      ],
+      "relates_to": [],
+      "organizations": [],
+      "references": [
+        "[30]",
+        "[31]"
+      ]
+    },
+    {
+      "id": "joint-declaration-processors-semiconductors",
+      "name": "A European Initiative on Processors and Semiconductor Technologies (Joint Declaration)",
+      "acronym": "Joint Declaration",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "semiconductors",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2020-12"
+      },
+      "description": "Joint Declaration signed in December 2020 by 22 member states committing to cooperate on strengthening the EU's semiconductor ecosystem due to strategic autonomy and market concerns. Precursor to subsequent semiconductor initiatives.\n",
+      "builds_on": [],
+      "relates_to": [
+        "chips-act"
+      ],
+      "organizations": [
+        "alliance-on-processors-semiconductor-technologies",
+        "semicon-coalition-europe"
+      ],
+      "references": [
+        "[34]",
+        "[35]"
+      ]
+    },
+    {
+      "id": "chips-act",
+      "name": "European Chips Act",
+      "acronym": "Chips Act",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "semiconductors",
+      "framework": [
+        "shaping-europes-digital-future",
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2023-09",
+        "entered_into_force": "2023-09",
+        "entered_into_application": "2023-09"
+      },
+      "description": "Poses 5 objectives (strengthening research, innovation, production, and skills development) through 3 pillars (the \"Chips for Europe\" Initiative, security of supply and resilience, and monitoring and crisis response). Aims to increase the European share of the global semiconductor market to 20% by 2030. Complements R&D programmes including IPCEI ME/CT.\n",
+      "builds_on": [
+        "joint-declaration-processors-semiconductors"
+      ],
+      "relates_to": [
+        "ipcei-me-ct"
+      ],
+      "organizations": [
+        "alliance-on-processors-semiconductor-technologies",
+        "semicon-coalition-europe"
+      ],
+      "references": [
+        "[36]",
+        "[37]",
+        "[38]"
+      ]
+    },
+    {
+      "id": "chips-act-2",
+      "name": "Chips Act 2.0",
+      "acronym": "Chips Act 2.0",
+      "type": "Regulation",
+      "status": "proposed",
+      "domain": "semiconductors",
+      "framework": [
+        "european-technological-sovereignty-package"
+      ],
+      "dates": {
+        "proposed": "2026-06"
+      },
+      "description": "Legislative proposal (June 2026) following a public consultation launched by the EC to address the limited results of the Chips Act. Reinforces investments, competitiveness, and resilience to guarantee the EU supply of semiconductor products for digital products and AI services. Included in the European Technological Sovereignty Package.\n",
+      "builds_on": [
+        "chips-act"
+      ],
+      "replaces": [
+        "chips-act"
+      ],
+      "relates_to": [],
+      "organizations": [
+        "semicon-coalition-europe"
+      ],
+      "references": [
+        "[44]",
+        "[45]",
+        "[46]"
+      ]
+    },
+    {
+      "id": "ipcei-me-ct",
+      "name": "IPCEI on Microelectronics and Communication Technologies",
+      "acronym": "IPCEI ME/CT",
+      "type": "Bundles",
+      "status": "adopted",
+      "domain": "semiconductors",
+      "framework": [
+        "digital-decade-policy-programme"
+      ],
+      "dates": {
+        "published": 2022
+      },
+      "description": "Important Project of Common European Interest on microelectronics and communication technologies — an example of multi-country project under the Digital Decade, allowing member states to pool resources for large-scale cross-border projects.\n",
+      "builds_on": [],
+      "relates_to": [
+        "chips-act"
+      ],
+      "organizations": [],
+      "references": [
+        "[9]"
+      ]
+    },
+    {
+      "id": "white-paper-on-ai",
+      "name": "White Paper on AI: a European approach to excellence and trust",
+      "acronym": "White Paper on AI",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2020-02"
+      },
+      "description": "Published together with \"Shaping Europe's Digital Future\". Sets the initial vision to make the EU a leader in trustworthy, human-centric AI through investments, research, and innovation, discussing concerns like safety, liability, and fundamental rights.\n",
+      "builds_on": [],
+      "relates_to": [
+        "ai-act"
+      ],
+      "organizations": [],
+      "references": [
+        "[49]"
+      ]
+    },
+    {
+      "id": "ai-act",
+      "name": "AI Act",
+      "acronym": "AI Act",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "shaping-europes-digital-future",
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2024-07",
+        "entered_into_force": "2024-08",
+        "entered_into_application": "2026-08"
+      },
+      "description": "Drawing on the White Paper on AI, the first-ever legal framework for trustworthy, human-centric AI. Inspired by the GDPR's risk-based approach, defines 4 risk levels (unacceptable/banned, high, transparency, minimal or no risk). Enforcement supported by the AI Office. General application from 2 August 2026; obligations for high-risk AI systems deferred to 2 December 2027 (Annex III) / 2 August 2028 (Annex I) by the AI Omnibus.\n",
+      "builds_on": [
+        "white-paper-on-ai"
+      ],
+      "relates_to": [
+        "digital-omnibus",
+        "ai-omnibus"
+      ],
+      "organizations": [
+        "ai-office",
+        "ai-pact"
+      ],
+      "references": [
+        "[50]"
+      ]
+    },
+    {
+      "id": "ai-innovation-package",
+      "name": "AI Innovation Package",
+      "acronym": "AI Innovation Package",
+      "type": "Bundles",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "shaping-europes-digital-future",
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2024-01"
+      },
+      "description": "Measures to support European startups and SMEs in developing trustworthy, human-centric AI. Provides financial support (funding programmes, public and private investments), accelerates Common European Data Spaces, and sets the basis for AI Factories through an amendment to the EuroHPC Regulation.\n",
+      "builds_on": [],
+      "relates_to": [
+        "ai-factories",
+        "common-european-data-spaces"
+      ],
+      "organizations": [
+        "ai-office",
+        "eurohpc-joint-undertaking"
+      ],
+      "references": [
+        "[53]"
+      ]
+    },
+    {
+      "id": "ai-factories",
+      "name": "AI Factories",
+      "acronym": "AI Factories",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": 2024
+      },
+      "description": "Hubs supporting development of AI by European organizations and researchers by bringing together computational resources, data, and people. Leverage and reinforce the computational resources of the EuroHPC Joint Undertaking.\n",
+      "builds_on": [
+        "ai-innovation-package"
+      ],
+      "relates_to": [
+        "ai-gigafactories"
+      ],
+      "organizations": [
+        "eurohpc-joint-undertaking"
+      ],
+      "references": [
+        "[54]",
+        "[55]"
+      ]
+    },
+    {
+      "id": "ai-continent-action-plan",
+      "name": "AI Continent Action Plan",
+      "acronym": "AI Continent Action Plan",
+      "type": "Bundles",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2025-04"
+      },
+      "description": "Communication setting the broad strategic direction for the EU ambition to become a \"leading AI continent\". Focuses on five areas: computing infrastructures, high-quality data for AI, AI skills, AI adoption in strategic sectors, and simplifying AI rules. Produced the CADA, the Apply AI Strategy, and the AI Gigafactories.\n",
+      "builds_on": [],
+      "relates_to": [
+        "cada",
+        "apply-ai-strategy",
+        "ai-gigafactories"
+      ],
+      "organizations": [],
+      "references": [
+        "[56]"
+      ]
+    },
+    {
+      "id": "cada",
+      "name": "Cloud and AI Development Act",
+      "acronym": "CADA",
+      "type": "Regulation",
+      "status": "proposed",
+      "domain": "cloud-edge",
+      "framework": [
+        "european-technological-sovereignty-package"
+      ],
+      "dates": {
+        "published": "2026-06"
+      },
+      "description": "Part of the European Technological Sovereignty Package (June 2026). Develops European capabilities on cloud computing and AI across three areas: (i) research/development/innovation/adoption of AI reinforcing the Apply AI Strategy; (ii) simplify permitting to at least triple data-centre capacity within 5-7 years; (iii) a mechanism to assess cloud and AI sovereignty on four assurance levels. Expected to reference the Cloud Sovereignty Framework.\n",
+      "builds_on": [
+        "apply-ai-strategy",
+        "ai-continent-action-plan",
+        "cloud-sovereignty-framework"
+      ],
+      "relates_to": [
+        "open-source-strategy"
+      ],
+      "organizations": [],
+      "references": [
+        "[57]",
+        "[58]"
+      ]
+    },
+    {
+      "id": "apply-ai-strategy",
+      "name": "Apply AI Strategy",
+      "acronym": "Apply AI Strategy",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2025-10"
+      },
+      "description": "Aims to increase adoption of AI across 10 key industry sectors and the public sector (encouraging an \"AI-first\" policy), support EU technological sovereignty, and establish the Apply AI Alliance forum. Originated the Frontier AI Grand Challenge (won by the EUROPA project).\n",
+      "builds_on": [
+        "ai-continent-action-plan"
+      ],
+      "relates_to": [
+        "cada"
+      ],
+      "organizations": [],
+      "references": [
+        "[59]",
+        "[61]",
+        "[62]"
+      ]
+    },
+    {
+      "id": "ai-gigafactories",
+      "name": "AI Gigafactories",
+      "acronym": "AI Gigafactories",
+      "type": "Communication",
+      "status": "launched",
+      "domain": "ai",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2026-07"
+      },
+      "description": "A call for tenders (published July 2026) to create up to seven AI Gigafactories — essentially larger versions of AI Factories. Draws from the InvestAI Facility of February 2025.\n",
+      "builds_on": [
+        "ai-factories",
+        "ai-continent-action-plan"
+      ],
+      "relates_to": [],
+      "organizations": [],
+      "references": [
+        "[63]",
+        "[64]"
+      ]
+    },
+    {
+      "id": "ai-omnibus",
+      "name": "AI Omnibus",
+      "acronym": "AI Omnibus",
+      "type": "Bundles",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2025-11",
+        "entered_into_force": "2026-07"
+      },
+      "description": "Amendment to the AI Act with a clear (delayed) implementation timeline and simplified rules to favour innovation. First published November 2025 as part of the Digital Omnibus package, then split off to a different legislative process because of urgency; adopted June 2026 and in force as of 27 July 2026.\n",
+      "builds_on": [
+        "ai-act",
+        "digital-omnibus"
+      ],
+      "amends": [
+        "ai-act"
+      ],
+      "relates_to": [
+        "ai-act"
+      ],
+      "organizations": [],
+      "references": [
+        "[52]"
+      ]
+    },
+    {
+      "id": "frontier-ai-grand-challenge",
+      "name": "Frontier AI Grand Challenge",
+      "acronym": "Frontier AI Grand Challenge",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "ai",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": 2025
+      },
+      "description": "Competition for funding the training of an open source EU AI model, originating from the Apply AI Strategy. The EUROPA project won the competition.\n",
+      "builds_on": [
+        "apply-ai-strategy"
+      ],
+      "relates_to": [],
+      "organizations": [],
+      "references": [
+        "[61]",
+        "[62]"
+      ]
+    },
+    {
+      "id": "common-european-data-spaces",
+      "name": "Common European Data Spaces",
+      "acronym": "CEDS",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "data",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": 2022
+      },
+      "description": "Data spaces supported by the DGA and accelerated by the AI Innovation Package across sectors such as healthcare, environment, energy, agriculture, mobility, and finance; connected with AI ecosystems by the Data Union Strategy.\n",
+      "builds_on": [
+        "data-governance-act"
+      ],
+      "relates_to": [
+        "ai-innovation-package",
+        "data-union-strategy"
+      ],
+      "organizations": [],
+      "references": []
+    },
+    {
+      "id": "ipcei-cis",
+      "name": "IPCEI on Cloud Infrastructure and Services",
+      "acronym": "IPCEI-CIS",
+      "type": "Bundles",
+      "status": "adopted",
+      "domain": "cloud-edge",
+      "framework": [
+        "digital-decade-policy-programme"
+      ],
+      "dates": {
+        "published": "2023-12"
+      },
+      "description": "Important Project of Common European Interest (approved December 2023) to support research, development, and initial industrial deployment of European innovations in cloud and edge computing, enabling a cloud-to-edge continuum across providers through interoperable technologies, a common reference architecture, and open source software. Complements legislative efforts in the Data Act. Originally conceived to build on Gaia-X, but in practice developed its own largely separate reference architecture.\n",
+      "builds_on": [
+        "data-act"
+      ],
+      "relates_to": [
+        "open-source-strategy"
+      ],
+      "organizations": [
+        "gaia-x",
+        "european-alliance-industrial-data-edge-cloud"
+      ],
+      "references": [
+        "[70]",
+        "[71]",
+        "[72]"
+      ]
+    },
+    {
+      "id": "cloud-sovereignty-framework",
+      "name": "Cloud Sovereignty Framework",
+      "acronym": "Cloud Sovereignty Framework",
+      "type": "Communication",
+      "status": "draft",
+      "domain": "cloud-edge",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2025-10"
+      },
+      "description": "First presented October 2025 (still a draft). Building on the ECCF, provides a mechanism to assess the \"sovereignty\" of cloud providers across eight objectives (strategic, legal/jurisdictional, data and AI, operational, supply chain, technological, environmental, security and compliance). Introduces five Sovereignty Effectiveness Assurance Levels (SEAL-0 to SEAL-4) and an overall sovereignty score. Clarification published June 2026. Expected to become a key reference for the CADA.\n",
+      "builds_on": [],
+      "relates_to": [
+        "cada"
+      ],
+      "organizations": [],
+      "references": [
+        "[14]",
+        "[15]",
+        "[73]"
+      ]
+    },
+    {
+      "id": "cybersecurity-strategy-digital-decade",
+      "name": "EU's Cybersecurity Strategy for the Digital Decade",
+      "acronym": "Cybersecurity Strategy",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2020-12"
+      },
+      "description": "The third cybersecurity strategy in a series (after 2013 and 2017). Lays down EC intentions on regulatory, investment, and policy initiatives for cybersecurity of essential services and the capability to withstand, respond to, and recover from cyberattacks. Addresses resilience and technological sovereignty, operational capacity, and international cooperation. Key component of \"Shaping Europe's Digital Future\" and sets the vision for many subsequent initiatives.\n",
+      "builds_on": [],
+      "relates_to": [
+        "nis2",
+        "cyber-resilience-act",
+        "cyber-solidarity-act"
+      ],
+      "organizations": [
+        "ecso",
+        "eccc"
+      ],
+      "references": [
+        "[84]"
+      ]
+    },
+    {
+      "id": "nis2",
+      "name": "Network and Information Systems Directive (NIS2)",
+      "acronym": "NIS2",
+      "type": "Directive",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2022-12",
+        "entered_into_force": "2023-01",
+        "entered_into_application": "2024-10"
+      },
+      "description": "Replaces the 2016 NIS 1 directive. Targets organizations in 18 sectors (energy, transport, healthcare, finance); affected organizations adopt a risk-based cybersecurity approach, implement minimum security practices, and fulfil reporting requirements. Organizations responsible for their own supply chain; top management accountable. Fosters cooperation via CSIRTs/CERTs, EU-CyCLONe and the NIS Cooperation Group. Related to the CER and DORA.\n",
+      "builds_on": [
+        "cybersecurity-strategy-digital-decade"
+      ],
+      "relates_to": [
+        "cer-directive",
+        "dora",
+        "nis2-amendments",
+        "cyber-resilience-act"
+      ],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[86]",
+        "[87]",
+        "[88]",
+        "[89]",
+        "[90]"
+      ]
+    },
+    {
+      "id": "cer-directive",
+      "name": "Critical Entities Resilience Directive",
+      "acronym": "CER",
+      "type": "Directive",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2022-12",
+        "entered_into_force": "2023-01",
+        "entered_into_application": "2024-10"
+      },
+      "description": "Replaces the European Critical Infrastructure Directive of 2008. Requires member states to adopt national strategies for the resilience of critical entities in specific sectors. These critical entities are automatically also subject to the NIS2.\n",
+      "builds_on": [],
+      "relates_to": [
+        "nis2"
+      ],
+      "organizations": [],
+      "references": [
+        "[91]"
+      ]
+    },
+    {
+      "id": "cyber-resilience-act",
+      "name": "Cyber Resilience Act",
+      "acronym": "CRA",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2024-11",
+        "entered_into_force": "2024-12",
+        "entered_into_application": null
+      },
+      "description": "Complements the NIS2 by introducing cybersecurity requirements on digital products (and components) sold in the EU and connected to the Internet (IoT cameras, wearables, apps, software, network appliances). Requirements concern the full lifecycle; manufacturers must report incidents and release security updates. FOSS may or may not be subject depending on responsibility and commercial activity. Entering into application in phases: Articles 35-51 on June 2026, Article 14 on September 2026, whole regulation on December 2027.\n",
+      "builds_on": [
+        "nis2"
+      ],
+      "relates_to": [
+        "eucc"
+      ],
+      "organizations": [],
+      "references": [
+        "[92]",
+        "[93]",
+        "[94]",
+        "[95]"
+      ]
+    },
+    {
+      "id": "dora",
+      "name": "Digital Operational Resilience Act",
+      "acronym": "DORA",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2022-12",
+        "entered_into_force": "2023-01",
+        "entered_into_application": "2025-01"
+      },
+      "description": "Concerns digital operational resilience of EU financial entities (banks, payment/e-money institutions, insurance companies). Considers critical third-party providers (CTPPs) delivering critical digital services to financial entities. European supervisory authorities (EBA, EIOPA, ESMA) monitor CTPPs. Published first as a draft in September 2020 as part of the Digital Finance Package. References the NIS2.\n",
+      "builds_on": [
+        "nis2"
+      ],
+      "relates_to": [
+        "nis2"
+      ],
+      "organizations": [],
+      "references": [
+        "[96]",
+        "[97]",
+        "[98]"
+      ]
+    },
+    {
+      "id": "eudi-regulation",
+      "name": "European Digital Identity Regulation (eIDAS 2.0)",
+      "acronym": "EUDI / eIDAS 2.0",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "digital-compass"
+      ],
+      "dates": {
+        "published": "2024-04",
+        "entered_into_force": "2024-05",
+        "entered_into_application": "2024-05 (up to end of 2026)"
+      },
+      "description": "Traces back to the digital public services areas of the Digital Compass. Also known as electronic IDentification, Authentication and trust Services (eIDAS 2.0); amends the 2014 eIDAS Regulation with an expanded list of \"qualified trust services\" and stronger governance, supervision, and liability rules. A fundamental component is the European Digital Identity Wallet (EUDI Wallet): by end of 2026, member states must provide a free-to-use wallet app. Mandates selective disclosure, unlinkability, and interoperability via the Architecture Reference Framework (ARF). Subject of large-scale pilot projects.\n",
+      "builds_on": [],
+      "relates_to": [
+        "european-business-wallets"
+      ],
+      "organizations": [],
+      "references": [
+        "[100]",
+        "[101]",
+        "[102]"
+      ]
+    },
+    {
+      "id": "european-business-wallets",
+      "name": "Proposal for European Business Wallets",
+      "acronym": "European Business Wallets",
+      "type": "Regulation",
+      "status": "proposed",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "digital-compass"
+      ],
+      "dates": {
+        "proposed": "2025-11"
+      },
+      "description": "Legislative proposal (November 2025) contained in the Digital Package, building on the EUDI Regulation. Adds functionalities specific for businesses, e.g., digital management of representation rights and mandates, and a secure channel for exchanging official documents with public authorities.\n",
+      "builds_on": [
+        "eudi-regulation"
+      ],
+      "relates_to": [],
+      "organizations": [],
+      "references": [
+        "[110]"
+      ]
+    },
+    {
+      "id": "cyber-solidarity-act",
+      "name": "Cyber Solidarity Act",
+      "acronym": "Cyber Solidarity Act",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "shaping-europes-digital-future"
+      ],
+      "dates": {
+        "published": "2025-01",
+        "entered_into_force": "2025-02",
+        "entered_into_application": "2025-02"
+      },
+      "description": "Aims to improve the EU capacity to detect, prepare for, and respond to significant and large-scale cybersecurity threats. Includes the European Cybersecurity Alert System, the Cybersecurity Emergency Mechanism, and the Cybersecurity Incident Review Mechanism.\n",
+      "builds_on": [
+        "cybersecurity-strategy-digital-decade"
+      ],
+      "relates_to": [],
+      "organizations": [],
+      "references": [
+        "[103]",
+        "[104]"
+      ]
+    },
+    {
+      "id": "new-cybersecurity-package",
+      "name": "New Cybersecurity Package",
+      "acronym": "New Cybersecurity Package",
+      "type": "Bundles",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2026-01"
+      },
+      "description": "Set of initiatives published January 2026 to \"further strengthen the EU's cybersecurity resilience and capabilities\". Includes a proposal for a revised Cybersecurity Act (CSA) and a set of amendments to the NIS2. Complementary to the CADA and the Digital Omnibus.\n",
+      "builds_on": [
+        "cybersecurity-strategy-digital-decade"
+      ],
+      "relates_to": [
+        "cada",
+        "digital-omnibus"
+      ],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[105]",
+        "[118]"
+      ]
+    },
+    {
+      "id": "cybersecurity-act",
+      "name": "Cybersecurity Act",
+      "acronym": "CSA",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [],
+      "dates": {
+        "published": "2019-06",
+        "entered_into_force": "2019-06",
+        "entered_into_application": "2019-06"
+      },
+      "description": "Original Cybersecurity Act (published June 2019) which strengthened the role of ENISA with a permanent mandate and established the European Cybersecurity Certification Framework (ECCF) for certifying digital products, services, and processes.\n",
+      "builds_on": [],
+      "relates_to": [
+        "revised-cybersecurity-act"
+      ],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[107]"
+      ]
+    },
+    {
+      "id": "revised-cybersecurity-act",
+      "name": "Revised Cybersecurity Act (proposal)",
+      "acronym": "revised CSA",
+      "type": "Regulation",
+      "status": "proposed",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "proposed": "2026-01"
+      },
+      "description": "Revision of the Cybersecurity Act aimed at reducing risks in the EU ICT supply chain due to foreign suppliers of cybersecurity concern, via a risk-based supply chain security framework. Updates the ECCF to increase adoption by simplifying certification. Impacts the EUCS and the EUCC.\n",
+      "builds_on": [
+        "cybersecurity-act",
+        "new-cybersecurity-package"
+      ],
+      "amends": [
+        "cybersecurity-act"
+      ],
+      "relates_to": [
+        "eucs",
+        "eucc"
+      ],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[106]"
+      ]
+    },
+    {
+      "id": "eccf",
+      "name": "European Cybersecurity Certification Framework",
+      "acronym": "ECCF",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [],
+      "dates": {
+        "published": "2019-06"
+      },
+      "description": "Certification framework established by the original Cybersecurity Act for certifying digital products, services, and processes. Certifications under the ECCF are voluntary by design; the revision simplifies the process to increase adoption.\n",
+      "builds_on": [
+        "cybersecurity-act"
+      ],
+      "relates_to": [
+        "eucs",
+        "eucc",
+        "revised-cybersecurity-act",
+        "cloud-sovereignty-framework"
+      ],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[108]"
+      ]
+    },
+    {
+      "id": "eucs",
+      "name": "European Cybersecurity Certification Scheme for Cloud Services",
+      "acronym": "EUCS",
+      "type": "Regulation",
+      "status": "draft",
+      "domain": "cybersecurity-identity",
+      "framework": [],
+      "dates": {
+        "proposed": "2020-12"
+      },
+      "description": "Aims to certify cloud services. First drafted by ENISA in December 2020, not yet formalized. Discussion still in progress, especially on digital data sovereignty conditions, which appear to have been delegated to the CADA (complementing the revised CSA).\n",
+      "builds_on": [
+        "eccf"
+      ],
+      "relates_to": [
+        "revised-cybersecurity-act",
+        "cada"
+      ],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[109]",
+        "[110]"
+      ]
+    },
+    {
+      "id": "eucc",
+      "name": "European Common Criteria-based cybersecurity certification scheme",
+      "acronym": "EUCC",
+      "type": "Regulation",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [],
+      "dates": {
+        "published": "2024-01"
+      },
+      "description": "Formally established January 2024. Allows ICT suppliers to certify the cybersecurity of digital products (smartcards, routers, cryptography modules, software) through a common assessment process based on the Common Criteria/SOG-IS evaluation methodology. Offers two assurance levels (substantial and high). Can help demonstrate compliance with the CRA and NIS2.\n",
+      "builds_on": [
+        "eccf"
+      ],
+      "relates_to": [
+        "cyber-resilience-act",
+        "nis2",
+        "revised-cybersecurity-act"
+      ],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[111]"
+      ]
+    },
+    {
+      "id": "nis2-amendments",
+      "name": "Amendments to the NIS2 Directive",
+      "acronym": "NIS2 amendments",
+      "type": "Directive",
+      "status": "proposed",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "proposed": "2026-01"
+      },
+      "description": "Set of amendments to the NIS2 (part of the New Cybersecurity Package) to increase legal clarity, simplify compliance and reduce costs, facilitate data collection on ransomware attacks, and reinforce ENISA's coordinating role for cross-border supervision.\n",
+      "builds_on": [
+        "nis2",
+        "new-cybersecurity-package"
+      ],
+      "amends": [
+        "nis2"
+      ],
+      "relates_to": [],
+      "organizations": [
+        "enisa"
+      ],
+      "references": [
+        "[112]",
+        "[120]"
+      ]
+    },
+    {
+      "id": "action-plan-cybersecurity-ai",
+      "name": "Action Plan on Cybersecurity and Artificial Intelligence",
+      "acronym": "Action Plan Cyber-AI",
+      "type": "Bundles",
+      "status": "adopted",
+      "domain": "cybersecurity-identity",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2026-07"
+      },
+      "description": "Strategy to address the use of AI in cybersecurity in terms of both benefits (detect vulnerabilities, prevent attacks) and risks (automate attacks, identify weaknesses). Three objectives: (i) safe and responsible use of AI, (ii) strengthen cybersecurity and resilience, (iii) improve the EU's usage of AI for cybersecurity. Complements NIS2, CRA, AI Act, DORA, and the Cyber Solidarity Act.\n",
+      "builds_on": [
+        "nis2",
+        "cyber-resilience-act",
+        "ai-act",
+        "dora",
+        "cyber-solidarity-act"
+      ],
+      "relates_to": [],
+      "organizations": [],
+      "references": [
+        "[113]"
+      ]
+    },
+    {
+      "id": "quantum-europe-strategy",
+      "name": "Quantum Europe Strategy",
+      "acronym": "Quantum Europe Strategy",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "quantum",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "published": "2025-07"
+      },
+      "description": "Published July 2025 to address the EU's gap in quantum technologies. Identifies five areas: research and innovation, infrastructure, ecosystem (organizations and supply chain), dual-use, and skills.\n",
+      "builds_on": [],
+      "relates_to": [
+        "eu-quantum-act"
+      ],
+      "organizations": [],
+      "references": [
+        "[117]"
+      ]
+    },
+    {
+      "id": "eu-quantum-act",
+      "name": "EU Quantum Act",
+      "acronym": "EU Quantum Act",
+      "type": "Regulation",
+      "status": "scheduled",
+      "domain": "quantum",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "proposed": 2026
+      },
+      "description": "Being prepared to operationalize the Quantum Europe Strategy; scheduled for adoption in 2026.\n",
+      "builds_on": [
+        "quantum-europe-strategy"
+      ],
+      "relates_to": [],
+      "organizations": [],
+      "references": [
+        "[118]"
+      ]
+    },
+    {
+      "id": "digital-omnibus",
+      "name": "Digital Omnibus Regulation Proposal",
+      "acronym": "Digital Omnibus",
+      "type": "Bundles",
+      "status": "proposed",
+      "domain": "horizontal",
+      "framework": [
+        "competitiveness-compass"
+      ],
+      "dates": {
+        "proposed": "2025-11"
+      },
+      "description": "Proposes amendments to a range of initiatives, including the GDPR, the NIS2 Directive, and the Data Act. Still a proposal at the time of writing. The AI Omnibus was originally part of it but was split off due to urgency.\n",
+      "builds_on": [],
+      "amends": [
+        "data-act",
+        "nis2"
+      ],
+      "relates_to": [
+        "ai-omnibus",
+        "data-union-strategy",
+        "new-cybersecurity-package"
+      ],
+      "organizations": [],
+      "references": [
+        "[119]",
+        "[120]",
+        "[121]"
+      ]
+    },
+    {
+      "id": "open-source-strategy",
+      "name": "Open Source Strategy",
+      "acronym": "Open Source Strategy",
+      "type": "Communication",
+      "status": "adopted",
+      "domain": "horizontal",
+      "framework": [
+        "european-technological-sovereignty-package"
+      ],
+      "dates": {
+        "published": 2026
+      },
+      "description": "Part of the European Technological Sovereignty Package. Highlights the central role of open source technologies/software in fostering EU digital sovereignty by replacing often-foreign closed proprietary solutions. Supports development, adoption, and long-term maintenance of open source hardware and software (cloud, AI, networks, cybersecurity) and open-source-friendly tendering. Spirit adopted by IPCEI-CIS and Gaia-X. Also relates to the EU Open Source Solutions Catalogue and the Tech Sovereignty Catalogue.\n",
+      "builds_on": [],
+      "relates_to": [
+        "ipcei-cis"
+      ],
+      "organizations": [
+        "eosa"
+      ],
+      "references": [
+        "[122]",
+        "[123]",
+        "[124]",
+        "[125]"
+      ]
+    }
+  ]
+};
